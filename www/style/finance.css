@@ -1,0 +1,44 @@
+#canvas{
+			margin: 15px 15px;
+            padding: 2% 0;
+			width: 70%;
+			height: 35%;
+			box-shadow: 5px 8px 10px 8px grey;
+			
+		}
+#container-canvas {
+	
+	height: 450px;
+	box-shadow: 5px 8px 10px grey;	
+}
+
+#legend li{
+      width: 10px;
+      border-radius: 5%;
+
+	}
+.container-global>*{
+	margin: 0px auto;
+	width: 95%;
+}
+
+*{
+	color: black;
+	text-align: center;
+
+}
+#headers{
+	display:flex;
+	justify-content:center;
+	width: 62%;
+	height: 80px;
+	margin-top: 0px;
+	text-align: left;
+    margin: auto;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#by-strategy{
+	height: 40px;
+	font-size: 20px;
+}

@@ -1,0 +1,196 @@
+main{
+	width: 80%;
+	margin: 0px auto;
+}
+/*mon css ajouter ***/
+.container-global {
+  display: grid;
+  grid-template-columns: auto;
+  align-content: space-around;
+  background-color: white;
+
+  
+
+}
+.titre-global{
+	width: 100%;
+	background-color: #D3D3D3;
+	border-radius: 5%;
+	margin:auto;
+	opacity: 0.5;
+	color: black;
+	border-color: black;
+	text-align: center;
+	font-size: 30px;
+	
+}
+.titre-global>p{
+	color: black;
+}
+.titre-section{
+	background-color:#F5F5F5; 
+	padding-top: 5px;
+	margin: 5px;
+	border-radius: 5%;
+	text-align: left;
+	font-size: 20px;
+	border-radius: 3%;
+	opacity: 0.4;
+	color: black;
+	border:solid 2px lightgrey;
+
+}
+
+.container-section{
+	display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+    border-radius: 2%;
+    background-color: #F8F8FF;
+
+
+    
+}
+.section-content{
+	display: grid;
+	grid-template-columns: auto auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: space-around;
+    border-radius: 5%;
+    margin:5px;
+    padding: 5px;   
+}
+
+
+#titre-spectacl{ 
+	color:red;
+	opacity: 0.7;
+	text-align: left;
+}
+hr{
+	margin-top: 0px;
+}
+
+span{
+	font-size: 15px;
+	color: black;
+	margin-top:5px;
+	float: right;
+}
+
+titre{
+	font-style: italic;
+}
+
+#spectacl-container{
+	display: grid;
+	grid-template-rows:40px 55px 20px  190px 35px 160px 50px;
+	grid-gap: 5px;
+	justify-content: center;
+	padding: 5px;
+    border-radius: 5px;
+    background-color: #D3D3D3;
+
+
+}
+#spectacl-container>img{
+	height: 95%;
+	width: 80%;
+	margin:auto;
+	
+}
+#container-section{
+	display: grid;
+    grid-template-columns: auto;
+    justify-content: space-between;
+    align-content: center;
+    margin: 5px;
+    height: 200px;
+    border-radius: 2%;
+    background-color: grey;
+    
+}
+  
+
+#date{
+	display: grid;
+	grid-template-columns: 15% 70% 15%;
+	grid-column-gap: 2px;
+	justify-content: space-between;
+	font-size: 20px;
+}
+#date>p{
+	width: 80%;
+	color: black;
+	text-align: center;
+}
+date{
+	display: inline;
+}
+#date>*{
+	margin:auto;
+
+}
+#date>svg{
+	background-color: white;
+	width: 35px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.hidden{
+	display: none;
+}
+
+.reservation:hover{
+	cursor: grab;
+}
+svg:hover{
+	cursor: grab;
+}
+
+.allOfLieu:hover{
+   cursor: grab;
+}
+.allOfDate:hover{
+    cursor: grab;
+}
+.titre-spectacl{
+   cursor: grab;
+}
+#panier:hover{
+	cursor: grab;
+}
+
+main{
+	margin-bottom: 5px;
+	padding-bottom: 0px;
+}
+
+#presentation{
+	font-family: "Gill Sans", sans-serif;
+	padding: 8%;
+	color: black;
+	border-radius: 20%;
+	font-size: 18px;
+	box-shadow: 5px 5px 8px grey;
+}
+#presentation + div{
+	font-family: "Gill Sans", sans-serif;
+	text-align: center;
+	color: black;
+}
+.programmes:hover{
+	cursor: grab;
+}
+
+
+
+
+
+/*footer*/
+

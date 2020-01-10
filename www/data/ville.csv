@@ -1,0 +1,16 @@
+pointA,distance,duree,pointB
+veauce,45,42,monétay sur allier 
+veauce,22,26,monteignet sur l'andelot 
+veauce,91,68,moulins
+veauce,54,58,Vichy
+veauce,54,45,Clermont-Ferrand 
+monétay sur allier,91,65,monteignet sur l'andelot 
+monétay sur allier,25,30,moulins
+monétay sur allier,39,45,Vichy
+monétay sur allier,107,80,Clermont-Ferrand 
+monteignet sur l'andelot,91,65,moulins
+monteignet sur l'andelot,18,26,Vichy
+monteignet sur l'andelot,50,55,Clermont-Ferrand 
+moulins,69,70,Vichy
+moulins,98,97,Clermont-Ferrand 
+Clermont-Ferrand,56,65,Vichy

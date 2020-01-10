@@ -1,0 +1,141 @@
+.reservation-container{
+	display: grid;
+	grid-template-columns: 42% 55%;
+	grid-column-gap: 3%;
+	grid-row-gap: 20px;
+	grid-template-rows: 320px;
+	margin: 5px;
+	box-shadow: 10px 5px 5px grey; 
+}
+
+.container-global{
+	width: 100%;
+}
+.reservation-container > .spectacl-container{
+	height: 88%;
+}
+
+/**** le bloc de reservatio ****/
+.control-reservation{
+	height: 30px;
+	border:thick double #D3D3D3;
+	border-radius: 5%;
+}
+
+
+.control-reservation > span{
+  /*line-height: 1em;*/ 
+  float: left;
+  margin-left: 10px;
+
+}
+.control-reservation > img
+{
+	height: 90%;
+	width: 30px;
+	border-radius: 10%;
+	float: right;
+}
+ select{
+	
+}
+.reservation-info{
+    padding: 5px;
+}
+.info-categories{
+    height: 82%;
+    padding: 1px;
+    margin:2px;
+    box-shadow: 10px 5px 5px grey; 
+    font-size: 13px;
+}
+
+#container-res{
+	width: 80%;
+	position: absolute;
+	padding: 10px;
+	z-index: -1;
+}
+
+#container-conflits{
+	
+	width: 90%;
+	padding: 5px;
+	position: relative;
+	top: 150px;
+	left: 35px;
+	color: black;
+	box-shadow: 10px 5px 5px #D3D3D3;
+	background-color: white;
+	display: none;
+}
+
+#offert{
+	background-color:  	#7FFFD4;
+	color: black;
+	opacity:0.4; 
+	text-shadow: 1px 1px 2px black;
+}
+.info-spectacl .hidden{
+	display: inline;
+}
+
+#recapitulatif {
+	color: black;
+}
+
+button{
+	display: block;
+	width: 98%;
+	height: 40px;
+	margin:10px auto ;
+	border-radius: 5%;
+	font-size: 20px;
+}
+
+.container-conflit> div{
+	display: grid;
+	padding: 5px;
+	grid-template-columns:45% 45%;
+	grid-gap: 5%;
+	justify-content: center;
+	
+}
+
+.container-conflit{
+	width: 95%;
+	margin: auto;
+	box-shadow: 10px 5px 5px #D3D3D3;
+}
+
+#container-conflits>.titre-global{
+	text-align: center;
+	width: 90%;
+}
+.decalage{
+	position: absolute;
+	width: 58%;
+}
+
+#facturation{
+	border-style: solid;
+	box-shadow: 2px 2px 2px 2px red;
+}
+.info-categorie{
+	color: black;
+	margin: 10% auto;
+	height: 15%;
+	box-shadow: 5px 5px 5px #D3D3D3;
+}
+select{
+	float: left;
+	background-color:#D3D3D3;
+}
+
+	
+
+
+
+
+
+

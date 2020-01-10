@@ -1,0 +1,159 @@
+body, html {
+	
+	margin: 0;
+  }
+body{
+    background: linear-gradient(#2e8ab8,#2e8ab8);
+	position: relative;
+    font-family: sans-serif;
+}
+.fond{
+    
+    width: 100%;
+    
+    height: 300px;
+    margin-top: 10px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    background:linear-gradient(rgba(80, 101, 117, 0.7),rgba(80, 101, 117, 0.5));
+    font-size:60px; 
+    width: 1000px;
+    height: 100px;
+    background-position: 50% 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  
+}
+.acceuil{
+    width: 150px;
+    background:linear-gradient(rgba(80, 101, 117, 0.7),rgba(80, 101, 117, 0.5));
+    display: inline-block; 
+}
+.acceuil:hover{
+    background-color: aquamarine;
+}
+.propos{
+    width: 150px;
+    background:linear-gradient(rgba(80, 101, 117, 0.7),rgba(80, 101, 117, 0.7));
+    display: inline-block; 
+}
+.propos:hover{
+    background-color: aquamarine;
+}
+.spectacle{
+    width: 150px;
+    background:linear-gradient(rgba(80, 101, 117, 0.7),rgba(80, 101, 117, 0.7));
+    display: inline-block; 
+    
+}
+.spectacle:hover{
+    background-color: aquamarine;
+}
+.contact-nous{
+    width: 150px;
+    background:linear-gradient(rgba(80, 101, 117, 0.7),rgba(80, 101, 117, 0.7));
+    display: inline-block; 
+}
+.contact-nous:hover{
+    background-color: aquamarine;
+}
+.itr{
+    text-align: center;
+    
+}
+
+.titre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+.venter{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    text-align: center;
+}
+
+#imgs{
+    text-align: center;
+    font-size: 16px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+.img{
+     display: inline-block;
+}
+.pay{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+*{
+	text-decoration: none;
+}
+.footer{
+    position: absolute; bottom: 0; left: 0; right: 0;
+	background-color: #2A353E  ;
+	width:100%;
+	height:220px;
+}
+.lien{
+	font-family: sans-serif,arial, tahoma;
+   	font-size:16px;
+	color :white;
+	height: 100%;
+	float: left;
+	width: 30%;
+	top:-10px; 
+	margin-left: 50px;
+}
+a{
+	color: white;
+}
+a:hover{
+	color:#F8960A;
+}
+.a-propos{
+	color: white;
+	font-family: sans-serif,arial, tahoma;
+	float: left;
+	height: 200px;
+	width:30%;
+}
+.contact{
+	color: white;
+	font-family: sans-serif,arial, tahoma;
+	float: left;
+	height: 200px;
+	width: 30%;
+}
+.footer-bottom{
+    position: absolute; bottom: 0; left: 0; right: 0;
+	text-align: center;
+	width: 100%
+	height:20px;
+	background-color: #1A1D20 ;
+	color:#fff;
+}
+

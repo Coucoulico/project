@@ -1,0 +1,61 @@
+.spectacl-container{
+	display: grid;
+	grid-template-rows:18% 5% 40% 20% 15%;
+	grid-gap: 5px;
+	padding: 5px;
+    border-radius: 5px;
+    height: 350px;
+    background-color: #D3D3D3;
+
+
+}
+.spectacl-container>img{
+	height: 95%;
+	width: 95%;
+	
+}
+.spectacl-container>*{
+	text-align: left;
+}
+
+.titre-spectacl{ 
+	color:red;
+	font-size: 15px;
+	opacity: 0.7;
+	text-align: left;
+}
+.reservation{
+	text-align: center;
+	font-size: 23px;
+	width: 80%;
+	background-color: white;
+	margin:auto;
+	border: solid 2px;
+	border-radius: 10%;
+	color: grey;
+}
+
+#more>.description{
+	overflow: scroll;
+	color: black;
+	height: 100px;
+	display: none;
+	
+}
+#more{
+	border-radius: 10%;
+	background-color: grey;
+}
+#more>.more-info:hover{
+	color: black;
+}
+
+
+.info-spectacl>*{
+	color: grey;
+	font-size: 14px;
+	text-align: center;
+	padding: 0px;
+	margin:0px;
+
+}
